@@ -38,8 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'products',
-    'stripe_app'
+    'products'
 ]
 
 MIDDLEWARE = [
@@ -130,7 +129,9 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 YOUR_DOMAIN = 'http://127.0.0.1:8000'
 
 
-STIPE_PUBLIC_KEY = ''
-STIPE_SECRET_KEY = ''
-PAYPAL_CLIENT_KEY = ''
-PAYPAL_SECRET_KEY = ''
+STIPE_PUBLIC_KEY = 'pk_test_51JHMTDSCEyCGKea9BjzUQG3Grnl9Gk4AZHQvmxByHdHKXWZy6osS2DWMeKiZDTpPlm3CzFfOrhqPkAbCUfxUaEGV00OMSRXxOV'
+STIPE_SECRET_KEY = 'sk_test_51JHMTDSCEyCGKea9rjKPX7smXE681EI1aGyYBF7SykRrmKruPqIioRzAAyqc7U1azi0aLBr1rQOyac35d5CLsDVp001LaNQ0EC'
+PAYPAL_CLIENT_KEY = 'AaIc9BMUN5UjHKuorcoBeVJkVuFYyhIh_Lj_DiRhHvjgLsTK2x55eLpmGK0t-5bAKhnrLHvDeyl80v2Y'
+PAYPAL_SECRET_KEY = 'EGbnWLDlPeIyMfSHJxswX8E3rZzQ9ZGwUomb_0lIu_n5PcJBdNap7gCUknj5-vzRqdkOyaiJWH7cu0vB'
+RAZORPAY_ID = 'rzp_test_dE2DwUwdx3rXBB'
+RAZORPAY_SECRET_KEY = '40kgJwotxMqIgBYjzkMpjCA3'

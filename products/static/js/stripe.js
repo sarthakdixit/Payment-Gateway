@@ -9,7 +9,7 @@ stripe_checkout.addEventListener("click", () => {
         body: JSON.stringify({name: product_name, price: parseInt(product_price)*100})
     }
     
-    fetch(`${base_url}/stripe/create-checkout-session`, config)
+    fetch(`${base_url}/stripe/checkout`, config)
         .then(res => {
             return res.json();
         })
